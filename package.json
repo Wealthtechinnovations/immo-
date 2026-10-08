@@ -5,7 +5,11 @@
   "type": "module",
   "scripts": {
     "validate:governance": "node scripts/validate-governance.mjs",
-    "test": "npm run validate:governance"
+    "test": "npm run validate:governance && npm run validate:sources",
+    "validate:sources": "node scripts/validate-sources.mjs",
+    "ready": "node scripts/compute-ready.mjs"
   },
-  "engines": {"node": ">=20"}
+  "engines": {
+    "node": ">=20"
+  }
 }

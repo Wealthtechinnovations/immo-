@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {ClaimAssessmentStatus,createInterestClaim,canOfficiallyConfirm,assertEvidence} from '../src/index.js';
+test('claim is not ownership',()=>{const c=createInterestClaim({id:'C1',geometry:{type:'Polygon',coordinates:[]},createdAt:'2026-01-01T00:00:00Z'});assert.equal(c.status,'DRAFT');assert.equal('owner' in c,false);assert.equal('title' in c,false)});
+test('official confirmation requires verified legal evidence',()=>{assert.equal(canOfficiallyConfirm({status:ClaimAssessmentStatus.OFFICIALLY_CONFIRMED,evidence:[]}),false);assert.equal(canOfficiallyConfirm({status:ClaimAssessmentStatus.OFFICIALLY_CONFIRMED,evidence:[{legalAuthority:true,verificationStatus:'VERIFIED'}]}),true)});
+test('evidence provenance is mandatory',()=>assert.throws(()=>assertEvidence({sourceId:'x'})));

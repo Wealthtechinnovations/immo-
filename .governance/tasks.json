@@ -575,7 +575,7 @@
       "lot": "L02",
       "title": "Registre et qualification des sources — Formaliser le périmètre, les entrées et le contrat de sortie",
       "type": "DESIGN",
-      "status": "READY",
+      "status": "DONE",
       "dependencies": [
         "COICA-L00-T008"
       ],
@@ -596,14 +596,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L02/README.md",
+        "docs/SOURCE_DISCOVERY_PROTOCOL.md",
+        "docs/SOURCE_CAPABILITY_MATRIX.md",
+        "scripts/validate-sources.mjs",
+        "scripts/compute-ready.mjs",
+        ".governance/sources.json"
+      ]
     },
     {
       "id": "COICA-L02-T002",
       "lot": "L02",
       "title": "Registre et qualification des sources — Documenter les données, interfaces et contraintes",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L02-T001"
       ],
@@ -624,14 +632,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L02/README.md",
+        "docs/SOURCE_DISCOVERY_PROTOCOL.md",
+        "docs/SOURCE_CAPABILITY_MATRIX.md",
+        "scripts/validate-sources.mjs",
+        "scripts/compute-ready.mjs",
+        ".governance/sources.json"
+      ]
     },
     {
       "id": "COICA-L02-T003",
       "lot": "L02",
       "title": "Registre et qualification des sources — Définir les schémas et les règles métier",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L02-T002"
       ],
@@ -652,14 +668,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L02/README.md",
+        "docs/SOURCE_DISCOVERY_PROTOCOL.md",
+        "docs/SOURCE_CAPABILITY_MATRIX.md",
+        "scripts/validate-sources.mjs",
+        "scripts/compute-ready.mjs",
+        ".governance/sources.json"
+      ]
     },
     {
       "id": "COICA-L02-T004",
       "lot": "L02",
       "title": "Registre et qualification des sources — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L02-T003"
       ],
@@ -680,14 +704,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L02/README.md",
+        "docs/SOURCE_DISCOVERY_PROTOCOL.md",
+        "docs/SOURCE_CAPABILITY_MATRIX.md",
+        "scripts/validate-sources.mjs",
+        "scripts/compute-ready.mjs",
+        ".governance/sources.json"
+      ]
     },
     {
       "id": "COICA-L02-T005",
       "lot": "L02",
       "title": "Registre et qualification des sources — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L02-T004"
       ],
@@ -708,14 +740,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L02/README.md",
+        "docs/SOURCE_DISCOVERY_PROTOCOL.md",
+        "docs/SOURCE_CAPABILITY_MATRIX.md",
+        "scripts/validate-sources.mjs",
+        "scripts/compute-ready.mjs",
+        ".governance/sources.json"
+      ]
     },
     {
       "id": "COICA-L02-T006",
       "lot": "L02",
       "title": "Registre et qualification des sources — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L02-T005"
       ],
@@ -736,14 +776,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L02/README.md",
+        "docs/SOURCE_DISCOVERY_PROTOCOL.md",
+        "docs/SOURCE_CAPABILITY_MATRIX.md",
+        "scripts/validate-sources.mjs",
+        "scripts/compute-ready.mjs",
+        ".governance/sources.json"
+      ]
     },
     {
       "id": "COICA-L02-T007",
       "lot": "L02",
       "title": "Registre et qualification des sources — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L02-T006"
       ],
@@ -764,14 +812,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L02/README.md",
+        "docs/SOURCE_DISCOVERY_PROTOCOL.md",
+        "docs/SOURCE_CAPABILITY_MATRIX.md",
+        "scripts/validate-sources.mjs",
+        "scripts/compute-ready.mjs",
+        ".governance/sources.json"
+      ]
     },
     {
       "id": "COICA-L02-T008",
       "lot": "L02",
       "title": "Registre et qualification des sources — Exécuter la tranche 5 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L02-T007"
       ],
@@ -792,14 +848,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L02/README.md",
+        "docs/SOURCE_DISCOVERY_PROTOCOL.md",
+        "docs/SOURCE_CAPABILITY_MATRIX.md",
+        "scripts/validate-sources.mjs",
+        "scripts/compute-ready.mjs",
+        ".governance/sources.json"
+      ]
     },
     {
       "id": "COICA-L02-T009",
       "lot": "L02",
       "title": "Registre et qualification des sources — Vérifier les critères de sortie et rédiger le handoff",
       "type": "VALIDATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L02-T008"
       ],
@@ -820,14 +884,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L02/README.md",
+        "docs/SOURCE_DISCOVERY_PROTOCOL.md",
+        "docs/SOURCE_CAPABILITY_MATRIX.md",
+        "scripts/validate-sources.mjs",
+        "scripts/compute-ready.mjs",
+        ".governance/sources.json"
+      ]
     },
     {
       "id": "COICA-L03-T001",
       "lot": "L03",
       "title": "Modèle foncier canonique — Formaliser le périmètre, les entrées et le contrat de sortie",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "READY",
       "dependencies": [
         "COICA-L01-T007",
         "COICA-L02-T009"

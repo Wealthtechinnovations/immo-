@@ -1,0 +1,41 @@
+name: COICA Engineering Loop
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validate
+        run: npm test
+      - name: Calculate ready work
+        run: npm run ready > ready.json
+      - name: Publish ready-work artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: coica-ready-work
+          path: ready.json
+      - name: Maintain dispatch issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY'
+          import json, os, subprocess
+          ready=json.load(open('ready.json'))['ready']
+          title='COICA / Engineering Loop / Ready Work'
+          body='Automated observation. No task claimed or marked DONE.\n\n'+('\n'.join('- '+x['id']+' — '+x['title'] for x in ready[:30]) if ready else 'No executable tasks detected.')
+          found=subprocess.run(['gh','issue','list','--state','open','--search',title+' in:title','--json','number,title'],capture_output=True,text=True,check=True)
+          issues=[x for x in json.loads(found.stdout) if x['title']==title]
+          if issues:
+              subprocess.run(['gh','issue','edit',str(issues[0]['number']),'--body',body],check=True)
+          else:
+              subprocess.run(['gh','issue','create','--title',title,'--body',body],check=True)
+          PY

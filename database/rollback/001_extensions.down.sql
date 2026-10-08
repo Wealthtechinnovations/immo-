@@ -1,0 +1,1 @@
+-- Extensions are intentionally retained by rollback because they may be shared in a database. Remove only through an explicit operator-approved migration.

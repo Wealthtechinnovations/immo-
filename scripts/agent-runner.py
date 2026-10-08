@@ -12,7 +12,7 @@ if not task: fail('No READY task with satisfied dependencies; fail closed.')
 key=os.getenv('OPENAI_API_KEY')
 if not key: fail('COICA_AGENT_API_KEY absent; runner not activated.')
 model=os.getenv('MODEL') or 'gpt-4.1-mini'
-if not all(task.get('allowed',[])): fail('Missing scope')
+if not task.get('allowed') or not all(isinstance(v,str) and v.strip() for v in task['allowed']): fail('Missing scope')
 existing=run('gh','pr','list','--state','open','--json','title,headRefName')
 if any(task['id'] in x['title'] for x in json.loads(existing.stdout)): fail('Task already has an open PR')
 base=run('git','rev-parse','HEAD').stdout.strip()
@@ -42,11 +42,11 @@ run('git','checkout','-b',branch)
 for f in files:
     p=ROOT/f['path'];p.parent.mkdir(parents=True,exist_ok=True);p.write_text(f['content'])
 run('git','add','--',*[f['path'] for f in files])
-if not run('git','diff','--cached','--quiet',check=False).returncode:fail('No diff')
+if run('git','diff','--cached','--quiet',check=False).returncode == 0:fail('No diff')
 tests=run('npm','test',check=False)
 if tests.returncode:fail('Tests failed; no PR created: '+tests.stdout[-1500:]+tests.stderr[-1500:])
 run('git','-c','user.name=coica-agent[bot]','-c','user.email=coica-agent@users.noreply.github.com','commit','-m','feat(agent): '+task['id'])
 run('git','push','origin',branch)
-body='Governed automated proposal for '+task['id']+'\\n\\nScope: '+', '.join(task['allowed'])+'\\n\\nTests: npm test passed on runner. Requires independent review. No automatic merge.'
+body='Governed automated proposal for '+task['id']+'\n\nScope: '+', '.join(task['allowed'])+'\n\nTests: npm test passed on runner. Requires independent review. No automatic merge.'
 pr=run('gh','pr','create','--base','Server','--head',branch,'--title',task['id']+' — autonomous proposal','--body',body)
 print(pr.stdout)

@@ -1,0 +1,13 @@
+{
+  "program": "COICA",
+  "checkpoint": "BASELINE_PROPOSED",
+  "base_branch": "Server",
+  "base_sha": "4a67c9ee138e7a0fd6788b93a60d17566d542e84",
+  "last_completed_task": null,
+  "next_task_candidate": "COICA-L00-T001",
+  "tests": {
+    "automated": "NOT_RUN",
+    "documentary": "PENDING_REVIEW"
+  },
+  "production_mutated": false
+}

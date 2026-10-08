@@ -1,0 +1,1 @@
+import fs from 'node:fs';const s=fs.readFileSync('.github/workflows/engineering-loop.yml','utf8');if(!s.includes('npm test')||!s.includes('npm run ready')||/pull_request_target:/.test(s))process.exit(1);console.log('engineering loop guard OK');

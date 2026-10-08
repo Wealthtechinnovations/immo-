@@ -3,12 +3,19 @@
   "version": "1.0.0-proposed",
   "repository": "Wealthtechinnovations/immo-",
   "base_branch": "Server",
-  "status": "BASELINE_PROPOSED",
+  "status": "L00_REVIEW",
   "active_task": null,
-  "next_candidate": "COICA-L00-T001",
+  "next_candidate": "COICA-L01-T001",
   "tasks_total": 140,
   "lots_total": 18,
   "committed_application_code": false,
   "claimed_by": null,
-  "provider_session_id": "UNAVAILABLE"
+  "provider_session_id": "UNAVAILABLE",
+  "completed_lots": [
+    "L00"
+  ],
+  "ready_candidates": [
+    "COICA-L01-T001",
+    "COICA-L02-T001"
+  ]
 }

@@ -1,6 +1,6 @@
 {
-  "from": "initial_planning",
-  "to": "next_authorized_agent",
+  "from": "L00_bootstrap",
+  "to": "L01_architecture_and_L02_sources",
   "state": "PR_REVIEW_REQUIRED",
   "entrypoint": "00_START_HERE.md",
   "required_reads": [
@@ -12,6 +12,10 @@
     ".governance/tasks.json",
     ".governance/checkpoint.json"
   ],
-  "next_candidate": "COICA-L00-T001",
-  "active_lease": null
+  "next_candidate": "COICA-L01-T001",
+  "active_lease": null,
+  "ready_candidates": [
+    "COICA-L01-T001",
+    "COICA-L02-T001"
+  ]
 }

@@ -1,0 +1,17 @@
+{
+  "from": "initial_planning",
+  "to": "next_authorized_agent",
+  "state": "PR_REVIEW_REQUIRED",
+  "entrypoint": "00_START_HERE.md",
+  "required_reads": [
+    "CURRENT_STATE.md",
+    "TASKS.md",
+    "AGENT_PROTOCOL.md",
+    "LEGAL_INVARIANTS.md",
+    ".governance/current.json",
+    ".governance/tasks.json",
+    ".governance/checkpoint.json"
+  ],
+  "next_candidate": "COICA-L00-T001",
+  "active_lease": null
+}

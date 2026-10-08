@@ -1,0 +1,3939 @@
+{
+  "schema_version": 1,
+  "generated_for": "COICA_PROGRAM_BASELINE",
+  "count": 140,
+  "tasks": [
+    {
+      "id": "COICA-L00-T001",
+      "lot": "L00",
+      "title": "Bootstrap et gouvernance agents — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "READY",
+      "dependencies": [],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L00/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L00-T002",
+      "lot": "L00",
+      "title": "Bootstrap et gouvernance agents — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L00-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L00/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L00-T003",
+      "lot": "L00",
+      "title": "Bootstrap et gouvernance agents — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L00-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L00/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L00-T004",
+      "lot": "L00",
+      "title": "Bootstrap et gouvernance agents — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L00-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L00/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L00-T005",
+      "lot": "L00",
+      "title": "Bootstrap et gouvernance agents — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L00-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L00/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L00-T006",
+      "lot": "L00",
+      "title": "Bootstrap et gouvernance agents — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L00-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L00/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L00-T007",
+      "lot": "L00",
+      "title": "Bootstrap et gouvernance agents — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L00-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L00/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L00-T008",
+      "lot": "L00",
+      "title": "Bootstrap et gouvernance agents — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L00-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L00/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L01-T001",
+      "lot": "L01",
+      "title": "Architecture et décisions ADR — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L00-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L01/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L01-T002",
+      "lot": "L01",
+      "title": "Architecture et décisions ADR — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L01-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L01/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L01-T003",
+      "lot": "L01",
+      "title": "Architecture et décisions ADR — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L01-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L01/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L01-T004",
+      "lot": "L01",
+      "title": "Architecture et décisions ADR — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L01-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L01/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L01-T005",
+      "lot": "L01",
+      "title": "Architecture et décisions ADR — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L01-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L01/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L01-T006",
+      "lot": "L01",
+      "title": "Architecture et décisions ADR — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L01-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L01/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L01-T007",
+      "lot": "L01",
+      "title": "Architecture et décisions ADR — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L01-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L01/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L02-T001",
+      "lot": "L02",
+      "title": "Registre et qualification des sources — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L00-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L02/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L02-T002",
+      "lot": "L02",
+      "title": "Registre et qualification des sources — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L02-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L02/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L02-T003",
+      "lot": "L02",
+      "title": "Registre et qualification des sources — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L02-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L02/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L02-T004",
+      "lot": "L02",
+      "title": "Registre et qualification des sources — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L02-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L02/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L02-T005",
+      "lot": "L02",
+      "title": "Registre et qualification des sources — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L02-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L02/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L02-T006",
+      "lot": "L02",
+      "title": "Registre et qualification des sources — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L02-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L02/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L02-T007",
+      "lot": "L02",
+      "title": "Registre et qualification des sources — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L02-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L02/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L02-T008",
+      "lot": "L02",
+      "title": "Registre et qualification des sources — Exécuter la tranche 5 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L02-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L02/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L02-T009",
+      "lot": "L02",
+      "title": "Registre et qualification des sources — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L02-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L02/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L03-T001",
+      "lot": "L03",
+      "title": "Modèle foncier canonique — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L01-T007",
+        "COICA-L02-T009"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L03/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L03-T002",
+      "lot": "L03",
+      "title": "Modèle foncier canonique — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L03-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L03/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L03-T003",
+      "lot": "L03",
+      "title": "Modèle foncier canonique — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L03-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L03/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L03-T004",
+      "lot": "L03",
+      "title": "Modèle foncier canonique — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L03-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L03/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L03-T005",
+      "lot": "L03",
+      "title": "Modèle foncier canonique — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L03-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L03/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L03-T006",
+      "lot": "L03",
+      "title": "Modèle foncier canonique — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L03-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L03/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L03-T007",
+      "lot": "L03",
+      "title": "Modèle foncier canonique — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L03-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L03/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L03-T008",
+      "lot": "L03",
+      "title": "Modèle foncier canonique — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L03-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L03/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L04-T001",
+      "lot": "L04",
+      "title": "PostGIS et infrastructure de données — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L01-T007",
+        "COICA-L03-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L04/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L04-T002",
+      "lot": "L04",
+      "title": "PostGIS et infrastructure de données — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L04-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L04/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L04-T003",
+      "lot": "L04",
+      "title": "PostGIS et infrastructure de données — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L04-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L04/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L04-T004",
+      "lot": "L04",
+      "title": "PostGIS et infrastructure de données — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L04-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L04/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L04-T005",
+      "lot": "L04",
+      "title": "PostGIS et infrastructure de données — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L04-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L04/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L04-T006",
+      "lot": "L04",
+      "title": "PostGIS et infrastructure de données — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L04-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L04/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L04-T007",
+      "lot": "L04",
+      "title": "PostGIS et infrastructure de données — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L04-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L04/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L05-T001",
+      "lot": "L05",
+      "title": "Fédération MCP et contrats — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L03-T008",
+        "COICA-L04-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L05/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L05-T002",
+      "lot": "L05",
+      "title": "Fédération MCP et contrats — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L05-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L05/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L05-T003",
+      "lot": "L05",
+      "title": "Fédération MCP et contrats — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L05-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L05/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L05-T004",
+      "lot": "L05",
+      "title": "Fédération MCP et contrats — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L05-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L05/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L05-T005",
+      "lot": "L05",
+      "title": "Fédération MCP et contrats — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L05-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L05/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L05-T006",
+      "lot": "L05",
+      "title": "Fédération MCP et contrats — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L05-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L05/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L05-T007",
+      "lot": "L05",
+      "title": "Fédération MCP et contrats — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L05-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L05/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L05-T008",
+      "lot": "L05",
+      "title": "Fédération MCP et contrats — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L05-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L05/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L06-T001",
+      "lot": "L06",
+      "title": "Connecteur SIGFU — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L02-T009",
+        "COICA-L05-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L06/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L06-T002",
+      "lot": "L06",
+      "title": "Connecteur SIGFU — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L06-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L06/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L06-T003",
+      "lot": "L06",
+      "title": "Connecteur SIGFU — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L06-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L06/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L06-T004",
+      "lot": "L06",
+      "title": "Connecteur SIGFU — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L06-T003"
+      ],
+      "blocked_by_external_access": true,
+      "scope": {
+        "allowed": [
+          "work-packages/L06/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L06-T005",
+      "lot": "L06",
+      "title": "Connecteur SIGFU — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L06-T004"
+      ],
+      "blocked_by_external_access": true,
+      "scope": {
+        "allowed": [
+          "work-packages/L06/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L06-T006",
+      "lot": "L06",
+      "title": "Connecteur SIGFU — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L06-T005"
+      ],
+      "blocked_by_external_access": true,
+      "scope": {
+        "allowed": [
+          "work-packages/L06/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L06-T007",
+      "lot": "L06",
+      "title": "Connecteur SIGFU — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L06-T006"
+      ],
+      "blocked_by_external_access": true,
+      "scope": {
+        "allowed": [
+          "work-packages/L06/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L07-T001",
+      "lot": "L07",
+      "title": "Connecteur SIFOR-CI et AFOR — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L02-T009",
+        "COICA-L05-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L07/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L07-T002",
+      "lot": "L07",
+      "title": "Connecteur SIFOR-CI et AFOR — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L07-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L07/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L07-T003",
+      "lot": "L07",
+      "title": "Connecteur SIFOR-CI et AFOR — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L07-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L07/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L07-T004",
+      "lot": "L07",
+      "title": "Connecteur SIFOR-CI et AFOR — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L07-T003"
+      ],
+      "blocked_by_external_access": true,
+      "scope": {
+        "allowed": [
+          "work-packages/L07/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L07-T005",
+      "lot": "L07",
+      "title": "Connecteur SIFOR-CI et AFOR — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L07-T004"
+      ],
+      "blocked_by_external_access": true,
+      "scope": {
+        "allowed": [
+          "work-packages/L07/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L07-T006",
+      "lot": "L07",
+      "title": "Connecteur SIFOR-CI et AFOR — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L07-T005"
+      ],
+      "blocked_by_external_access": true,
+      "scope": {
+        "allowed": [
+          "work-packages/L07/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L07-T007",
+      "lot": "L07",
+      "title": "Connecteur SIFOR-CI et AFOR — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L07-T006"
+      ],
+      "blocked_by_external_access": true,
+      "scope": {
+        "allowed": [
+          "work-packages/L07/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L08-T001",
+      "lot": "L08",
+      "title": "Connecteurs géodonnées ouvertes — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L05-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L08/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L08-T002",
+      "lot": "L08",
+      "title": "Connecteurs géodonnées ouvertes — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L08-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L08/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L08-T003",
+      "lot": "L08",
+      "title": "Connecteurs géodonnées ouvertes — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L08-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L08/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L08-T004",
+      "lot": "L08",
+      "title": "Connecteurs géodonnées ouvertes — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L08-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L08/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L08-T005",
+      "lot": "L08",
+      "title": "Connecteurs géodonnées ouvertes — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L08-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L08/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L08-T006",
+      "lot": "L08",
+      "title": "Connecteurs géodonnées ouvertes — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L08-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L08/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L08-T007",
+      "lot": "L08",
+      "title": "Connecteurs géodonnées ouvertes — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L08-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L08/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L08-T008",
+      "lot": "L08",
+      "title": "Connecteurs géodonnées ouvertes — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L08-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L08/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L09-T001",
+      "lot": "L09",
+      "title": "Copernicus et télédétection — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L05-T008",
+        "COICA-L08-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L09/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L09-T002",
+      "lot": "L09",
+      "title": "Copernicus et télédétection — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L09-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L09/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L09-T003",
+      "lot": "L09",
+      "title": "Copernicus et télédétection — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L09-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L09/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L09-T004",
+      "lot": "L09",
+      "title": "Copernicus et télédétection — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L09-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L09/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L09-T005",
+      "lot": "L09",
+      "title": "Copernicus et télédétection — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L09-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L09/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L09-T006",
+      "lot": "L09",
+      "title": "Copernicus et télédétection — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L09-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L09/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L10-T001",
+      "lot": "L10",
+      "title": "Jumeau numérique foncier — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L04-T007",
+        "COICA-L06-T007",
+        "COICA-L07-T007",
+        "COICA-L08-T008",
+        "COICA-L09-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L10/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L10-T002",
+      "lot": "L10",
+      "title": "Jumeau numérique foncier — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L10-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L10/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L10-T003",
+      "lot": "L10",
+      "title": "Jumeau numérique foncier — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L10-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L10/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L10-T004",
+      "lot": "L10",
+      "title": "Jumeau numérique foncier — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L10-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L10/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L10-T005",
+      "lot": "L10",
+      "title": "Jumeau numérique foncier — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L10-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L10/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L10-T006",
+      "lot": "L10",
+      "title": "Jumeau numérique foncier — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L10-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L10/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L10-T007",
+      "lot": "L10",
+      "title": "Jumeau numérique foncier — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L10-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L10/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L10-T008",
+      "lot": "L10",
+      "title": "Jumeau numérique foncier — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L10-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L10/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L11-T001",
+      "lot": "L11",
+      "title": "Intelligence spatiale — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L10-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L11/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L11-T002",
+      "lot": "L11",
+      "title": "Intelligence spatiale — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L11-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L11/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L11-T003",
+      "lot": "L11",
+      "title": "Intelligence spatiale — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L11-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L11/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L11-T004",
+      "lot": "L11",
+      "title": "Intelligence spatiale — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L11-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L11/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L11-T005",
+      "lot": "L11",
+      "title": "Intelligence spatiale — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L11-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L11/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L11-T006",
+      "lot": "L11",
+      "title": "Intelligence spatiale — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L11-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L11/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L11-T007",
+      "lot": "L11",
+      "title": "Intelligence spatiale — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L11-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L11/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L11-T008",
+      "lot": "L11",
+      "title": "Intelligence spatiale — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L11-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L11/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L12-T001",
+      "lot": "L12",
+      "title": "Moteur de vérification d'éligibilité — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L11-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L12/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L12-T002",
+      "lot": "L12",
+      "title": "Moteur de vérification d'éligibilité — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L12-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L12/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L12-T003",
+      "lot": "L12",
+      "title": "Moteur de vérification d'éligibilité — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L12-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L12/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L12-T004",
+      "lot": "L12",
+      "title": "Moteur de vérification d'éligibilité — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L12-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L12/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L12-T005",
+      "lot": "L12",
+      "title": "Moteur de vérification d'éligibilité — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L12-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L12/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L12-T006",
+      "lot": "L12",
+      "title": "Moteur de vérification d'éligibilité — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L12-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L12/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L12-T007",
+      "lot": "L12",
+      "title": "Moteur de vérification d'éligibilité — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L12-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L12/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L12-T008",
+      "lot": "L12",
+      "title": "Moteur de vérification d'éligibilité — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L12-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L12/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L13-T001",
+      "lot": "L13",
+      "title": "Déclarations d'intérêt foncier — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L12-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L13/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L13-T002",
+      "lot": "L13",
+      "title": "Déclarations d'intérêt foncier — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L13-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L13/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L13-T003",
+      "lot": "L13",
+      "title": "Déclarations d'intérêt foncier — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L13-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L13/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L13-T004",
+      "lot": "L13",
+      "title": "Déclarations d'intérêt foncier — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L13-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L13/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L13-T005",
+      "lot": "L13",
+      "title": "Déclarations d'intérêt foncier — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L13-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L13/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L13-T006",
+      "lot": "L13",
+      "title": "Déclarations d'intérêt foncier — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L13-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L13/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L13-T007",
+      "lot": "L13",
+      "title": "Déclarations d'intérêt foncier — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L13-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L13/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L13-T008",
+      "lot": "L13",
+      "title": "Déclarations d'intérêt foncier — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L13-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L13/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L14-T001",
+      "lot": "L14",
+      "title": "Événements et vérification continue — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L10-T008",
+        "COICA-L13-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L14/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L14-T002",
+      "lot": "L14",
+      "title": "Événements et vérification continue — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L14-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L14/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L14-T003",
+      "lot": "L14",
+      "title": "Événements et vérification continue — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L14-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L14/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L14-T004",
+      "lot": "L14",
+      "title": "Événements et vérification continue — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L14-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L14/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L14-T005",
+      "lot": "L14",
+      "title": "Événements et vérification continue — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L14-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L14/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L14-T006",
+      "lot": "L14",
+      "title": "Événements et vérification continue — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L14-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L14/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L14-T007",
+      "lot": "L14",
+      "title": "Événements et vérification continue — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L14-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L14/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L15-T001",
+      "lot": "L15",
+      "title": "Identité API procédures et paiements — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L13-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L15/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L15-T002",
+      "lot": "L15",
+      "title": "Identité API procédures et paiements — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L15-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L15/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L15-T003",
+      "lot": "L15",
+      "title": "Identité API procédures et paiements — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L15-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L15/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L15-T004",
+      "lot": "L15",
+      "title": "Identité API procédures et paiements — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L15-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L15/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L15-T005",
+      "lot": "L15",
+      "title": "Identité API procédures et paiements — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L15-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L15/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L15-T006",
+      "lot": "L15",
+      "title": "Identité API procédures et paiements — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L15-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L15/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L15-T007",
+      "lot": "L15",
+      "title": "Identité API procédures et paiements — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L15-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L15/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L16-T001",
+      "lot": "L16",
+      "title": "Cartographie publique et administration — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L11-T008",
+        "COICA-L13-T008",
+        "COICA-L14-T007",
+        "COICA-L15-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L16/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L16-T002",
+      "lot": "L16",
+      "title": "Cartographie publique et administration — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L16-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L16/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L16-T003",
+      "lot": "L16",
+      "title": "Cartographie publique et administration — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L16-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L16/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L16-T004",
+      "lot": "L16",
+      "title": "Cartographie publique et administration — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L16-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L16/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L16-T005",
+      "lot": "L16",
+      "title": "Cartographie publique et administration — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L16-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L16/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L16-T006",
+      "lot": "L16",
+      "title": "Cartographie publique et administration — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L16-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L16/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L16-T007",
+      "lot": "L16",
+      "title": "Cartographie publique et administration — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L16-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L16/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L16-T008",
+      "lot": "L16",
+      "title": "Cartographie publique et administration — Exécuter la tranche 5 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L16-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L16/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L16-T009",
+      "lot": "L16",
+      "title": "Cartographie publique et administration — Exécuter la tranche 6 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L16-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L16/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L16-T010",
+      "lot": "L16",
+      "title": "Cartographie publique et administration — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L16-T009"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L16/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L17-T001",
+      "lot": "L17",
+      "title": "Qualité sécurité exploitation certification — Formaliser le périmètre, les entrées et le contrat de sortie",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L16-T010"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L17/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L17-T002",
+      "lot": "L17",
+      "title": "Qualité sécurité exploitation certification — Documenter les données, interfaces et contraintes",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L17-T001"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L17/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L17-T003",
+      "lot": "L17",
+      "title": "Qualité sécurité exploitation certification — Définir les schémas et les règles métier",
+      "type": "DESIGN",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L17-T002"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L17/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L17-T004",
+      "lot": "L17",
+      "title": "Qualité sécurité exploitation certification — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L17-T003"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L17/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L17-T005",
+      "lot": "L17",
+      "title": "Qualité sécurité exploitation certification — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L17-T004"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L17/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L17-T006",
+      "lot": "L17",
+      "title": "Qualité sécurité exploitation certification — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L17-T005"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L17/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L17-T007",
+      "lot": "L17",
+      "title": "Qualité sécurité exploitation certification — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L17-T006"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L17/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L17-T008",
+      "lot": "L17",
+      "title": "Qualité sécurité exploitation certification — Exécuter la tranche 5 du lot selon le contrat et les critères de validation",
+      "type": "IMPLEMENTATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L17-T007"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L17/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    },
+    {
+      "id": "COICA-L17-T009",
+      "lot": "L17",
+      "title": "Qualité sécurité exploitation certification — Vérifier les critères de sortie et rédiger le handoff",
+      "type": "VALIDATION",
+      "status": "BLOCKED",
+      "dependencies": [
+        "COICA-L17-T008"
+      ],
+      "blocked_by_external_access": false,
+      "scope": {
+        "allowed": [
+          "work-packages/L17/**"
+        ],
+        "forbidden": [
+          "production/**",
+          "secrets/**"
+        ]
+      },
+      "acceptance": [
+        "deliverables committed",
+        "tests or documentary validation attached",
+        "source provenance retained when data-related",
+        "non-regression documented",
+        "checkpoint and handoff updated"
+      ],
+      "evidence_required": true
+    }
+  ]
+}

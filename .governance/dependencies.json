@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "lots": [
+    {
+      "id": "L00",
+      "name": "Bootstrap et gouvernance agents",
+      "count": 8,
+      "dependencies": []
+    },
+    {
+      "id": "L01",
+      "name": "Architecture et décisions ADR",
+      "count": 7,
+      "dependencies": [
+        "L00"
+      ]
+    },
+    {
+      "id": "L02",
+      "name": "Registre et qualification des sources",
+      "count": 9,
+      "dependencies": [
+        "L00"
+      ]
+    },
+    {
+      "id": "L03",
+      "name": "Modèle foncier canonique",
+      "count": 8,
+      "dependencies": [
+        "L01",
+        "L02"
+      ]
+    },
+    {
+      "id": "L04",
+      "name": "PostGIS et infrastructure de données",
+      "count": 7,
+      "dependencies": [
+        "L01",
+        "L03"
+      ]
+    },
+    {
+      "id": "L05",
+      "name": "Fédération MCP et contrats",
+      "count": 8,
+      "dependencies": [
+        "L03",
+        "L04"
+      ]
+    },
+    {
+      "id": "L06",
+      "name": "Connecteur SIGFU",
+      "count": 7,
+      "dependencies": [
+        "L02",
+        "L05"
+      ]
+    },
+    {
+      "id": "L07",
+      "name": "Connecteur SIFOR-CI et AFOR",
+      "count": 7,
+      "dependencies": [
+        "L02",
+        "L05"
+      ]
+    },
+    {
+      "id": "L08",
+      "name": "Connecteurs géodonnées ouvertes",
+      "count": 8,
+      "dependencies": [
+        "L05"
+      ]
+    },
+    {
+      "id": "L09",
+      "name": "Copernicus et télédétection",
+      "count": 6,
+      "dependencies": [
+        "L05",
+        "L08"
+      ]
+    },
+    {
+      "id": "L10",
+      "name": "Jumeau numérique foncier",
+      "count": 8,
+      "dependencies": [
+        "L04",
+        "L06",
+        "L07",
+        "L08",
+        "L09"
+      ]
+    },
+    {
+      "id": "L11",
+      "name": "Intelligence spatiale",
+      "count": 8,
+      "dependencies": [
+        "L10"
+      ]
+    },
+    {
+      "id": "L12",
+      "name": "Moteur de vérification d'éligibilité",
+      "count": 8,
+      "dependencies": [
+        "L11"
+      ]
+    },
+    {
+      "id": "L13",
+      "name": "Déclarations d'intérêt foncier",
+      "count": 8,
+      "dependencies": [
+        "L12"
+      ]
+    },
+    {
+      "id": "L14",
+      "name": "Événements et vérification continue",
+      "count": 7,
+      "dependencies": [
+        "L10",
+        "L13"
+      ]
+    },
+    {
+      "id": "L15",
+      "name": "Identité API procédures et paiements",
+      "count": 7,
+      "dependencies": [
+        "L13"
+      ]
+    },
+    {
+      "id": "L16",
+      "name": "Cartographie publique et administration",
+      "count": 10,
+      "dependencies": [
+        "L11",
+        "L13",
+        "L14",
+        "L15"
+      ]
+    },
+    {
+      "id": "L17",
+      "name": "Qualité sécurité exploitation certification",
+      "count": 9,
+      "dependencies": [
+        "L16"
+      ]
+    }
+  ]
+}

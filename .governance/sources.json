@@ -11,7 +11,12 @@
       "api_verified": false,
       "bulk_reuse_verified": false,
       "source_url": null,
-      "last_verified_at": null
+      "last_verified_at": null,
+      "technical_access_verified": false,
+      "automation_authorization_verified": false,
+      "geometry_access_verified": false,
+      "reuse_basis": null,
+      "evidence": []
     },
     {
       "id": "CI-SIFOR",
@@ -22,7 +27,12 @@
       "api_verified": false,
       "bulk_reuse_verified": false,
       "source_url": null,
-      "last_verified_at": null
+      "last_verified_at": null,
+      "technical_access_verified": false,
+      "automation_authorization_verified": false,
+      "geometry_access_verified": false,
+      "reuse_basis": null,
+      "evidence": []
     },
     {
       "id": "CI-AFOR-PUBLICATIONS",
@@ -33,7 +43,12 @@
       "api_verified": false,
       "bulk_reuse_verified": false,
       "source_url": null,
-      "last_verified_at": null
+      "last_verified_at": null,
+      "technical_access_verified": false,
+      "automation_authorization_verified": false,
+      "geometry_access_verified": false,
+      "reuse_basis": null,
+      "evidence": []
     },
     {
       "id": "CI-ADMIN",
@@ -44,7 +59,12 @@
       "api_verified": false,
       "bulk_reuse_verified": false,
       "source_url": null,
-      "last_verified_at": null
+      "last_verified_at": null,
+      "technical_access_verified": false,
+      "automation_authorization_verified": false,
+      "geometry_access_verified": false,
+      "reuse_basis": null,
+      "evidence": []
     },
     {
       "id": "CI-OSM",
@@ -55,7 +75,12 @@
       "api_verified": false,
       "bulk_reuse_verified": false,
       "source_url": null,
-      "last_verified_at": null
+      "last_verified_at": null,
+      "technical_access_verified": false,
+      "automation_authorization_verified": false,
+      "geometry_access_verified": false,
+      "reuse_basis": null,
+      "evidence": []
     },
     {
       "id": "CI-COPERNICUS",
@@ -66,7 +91,12 @@
       "api_verified": false,
       "bulk_reuse_verified": false,
       "source_url": null,
-      "last_verified_at": null
+      "last_verified_at": null,
+      "technical_access_verified": false,
+      "automation_authorization_verified": false,
+      "geometry_access_verified": false,
+      "reuse_basis": null,
+      "evidence": []
     },
     {
       "id": "CI-ENV",
@@ -77,7 +107,12 @@
       "api_verified": false,
       "bulk_reuse_verified": false,
       "source_url": null,
-      "last_verified_at": null
+      "last_verified_at": null,
+      "technical_access_verified": false,
+      "automation_authorization_verified": false,
+      "geometry_access_verified": false,
+      "reuse_basis": null,
+      "evidence": []
     },
     {
       "id": "CI-CADASTRE",
@@ -88,7 +123,12 @@
       "api_verified": false,
       "bulk_reuse_verified": false,
       "source_url": null,
-      "last_verified_at": null
+      "last_verified_at": null,
+      "technical_access_verified": false,
+      "automation_authorization_verified": false,
+      "geometry_access_verified": false,
+      "reuse_basis": null,
+      "evidence": []
     },
     {
       "id": "CI-STATE-DOMAIN",
@@ -99,7 +139,12 @@
       "api_verified": false,
       "bulk_reuse_verified": false,
       "source_url": null,
-      "last_verified_at": null
+      "last_verified_at": null,
+      "technical_access_verified": false,
+      "automation_authorization_verified": false,
+      "geometry_access_verified": false,
+      "reuse_basis": null,
+      "evidence": []
     }
   ]
 }

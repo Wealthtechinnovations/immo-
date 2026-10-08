@@ -302,7 +302,7 @@
       "lot": "L01",
       "title": "Architecture et décisions ADR — Formaliser le périmètre, les entrées et le contrat de sortie",
       "type": "DESIGN",
-      "status": "READY",
+      "status": "DONE",
       "dependencies": [
         "COICA-L00-T008"
       ],
@@ -323,14 +323,25 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L01/README.md",
+        "docs/ARCHITECTURE_BOUNDARIES.md",
+        "docs/STACK_DECISION_GATES.md",
+        "docs/adr/001-modular-monorepo.md",
+        "docs/adr/002-postgis-spatial-system.md",
+        "docs/adr/003-mcp-federation-boundary.md",
+        "docs/adr/004-event-driven-refresh.md",
+        "docs/adr/005-provenance-first.md",
+        "docs/adr/006-claim-not-title.md"
+      ]
     },
     {
       "id": "COICA-L01-T002",
       "lot": "L01",
       "title": "Architecture et décisions ADR — Documenter les données, interfaces et contraintes",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L01-T001"
       ],
@@ -351,14 +362,25 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L01/README.md",
+        "docs/ARCHITECTURE_BOUNDARIES.md",
+        "docs/STACK_DECISION_GATES.md",
+        "docs/adr/001-modular-monorepo.md",
+        "docs/adr/002-postgis-spatial-system.md",
+        "docs/adr/003-mcp-federation-boundary.md",
+        "docs/adr/004-event-driven-refresh.md",
+        "docs/adr/005-provenance-first.md",
+        "docs/adr/006-claim-not-title.md"
+      ]
     },
     {
       "id": "COICA-L01-T003",
       "lot": "L01",
       "title": "Architecture et décisions ADR — Définir les schémas et les règles métier",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L01-T002"
       ],
@@ -379,14 +401,25 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L01/README.md",
+        "docs/ARCHITECTURE_BOUNDARIES.md",
+        "docs/STACK_DECISION_GATES.md",
+        "docs/adr/001-modular-monorepo.md",
+        "docs/adr/002-postgis-spatial-system.md",
+        "docs/adr/003-mcp-federation-boundary.md",
+        "docs/adr/004-event-driven-refresh.md",
+        "docs/adr/005-provenance-first.md",
+        "docs/adr/006-claim-not-title.md"
+      ]
     },
     {
       "id": "COICA-L01-T004",
       "lot": "L01",
       "title": "Architecture et décisions ADR — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L01-T003"
       ],
@@ -407,14 +440,25 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L01/README.md",
+        "docs/ARCHITECTURE_BOUNDARIES.md",
+        "docs/STACK_DECISION_GATES.md",
+        "docs/adr/001-modular-monorepo.md",
+        "docs/adr/002-postgis-spatial-system.md",
+        "docs/adr/003-mcp-federation-boundary.md",
+        "docs/adr/004-event-driven-refresh.md",
+        "docs/adr/005-provenance-first.md",
+        "docs/adr/006-claim-not-title.md"
+      ]
     },
     {
       "id": "COICA-L01-T005",
       "lot": "L01",
       "title": "Architecture et décisions ADR — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L01-T004"
       ],
@@ -435,14 +479,25 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L01/README.md",
+        "docs/ARCHITECTURE_BOUNDARIES.md",
+        "docs/STACK_DECISION_GATES.md",
+        "docs/adr/001-modular-monorepo.md",
+        "docs/adr/002-postgis-spatial-system.md",
+        "docs/adr/003-mcp-federation-boundary.md",
+        "docs/adr/004-event-driven-refresh.md",
+        "docs/adr/005-provenance-first.md",
+        "docs/adr/006-claim-not-title.md"
+      ]
     },
     {
       "id": "COICA-L01-T006",
       "lot": "L01",
       "title": "Architecture et décisions ADR — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L01-T005"
       ],
@@ -463,14 +518,25 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L01/README.md",
+        "docs/ARCHITECTURE_BOUNDARIES.md",
+        "docs/STACK_DECISION_GATES.md",
+        "docs/adr/001-modular-monorepo.md",
+        "docs/adr/002-postgis-spatial-system.md",
+        "docs/adr/003-mcp-federation-boundary.md",
+        "docs/adr/004-event-driven-refresh.md",
+        "docs/adr/005-provenance-first.md",
+        "docs/adr/006-claim-not-title.md"
+      ]
     },
     {
       "id": "COICA-L01-T007",
       "lot": "L01",
       "title": "Architecture et décisions ADR — Vérifier les critères de sortie et rédiger le handoff",
       "type": "VALIDATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L01-T006"
       ],
@@ -491,7 +557,18 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L01/README.md",
+        "docs/ARCHITECTURE_BOUNDARIES.md",
+        "docs/STACK_DECISION_GATES.md",
+        "docs/adr/001-modular-monorepo.md",
+        "docs/adr/002-postgis-spatial-system.md",
+        "docs/adr/003-mcp-federation-boundary.md",
+        "docs/adr/004-event-driven-refresh.md",
+        "docs/adr/005-provenance-first.md",
+        "docs/adr/006-claim-not-title.md"
+      ]
     },
     {
       "id": "COICA-L02-T001",

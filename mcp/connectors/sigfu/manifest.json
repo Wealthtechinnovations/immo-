@@ -1,0 +1,16 @@
+{
+  "id": "CI-SIGFU",
+  "name": "SIGFU",
+  "enabled": false,
+  "capabilities": [
+    "source.health",
+    "source.search"
+  ],
+  "authorization": {
+    "technical": false,
+    "automation": false
+  },
+  "status": "DISCOVERY",
+  "endpoint": null,
+  "provenanceRequired": true
+}

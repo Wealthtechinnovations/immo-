@@ -1425,7 +1425,7 @@
       "lot": "L05",
       "title": "Fédération MCP et contrats — Formaliser le périmètre, les entrées et le contrat de sortie",
       "type": "DESIGN",
-      "status": "READY",
+      "status": "REVIEW",
       "dependencies": [
         "COICA-L03-T008",
         "COICA-L04-T007"
@@ -1447,14 +1447,19 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "review_evidence": [
+        "mcp/core/src/index.js",
+        "mcp/core/test/core.test.mjs",
+        "docs/MCP_CONTRACT.md"
+      ]
     },
     {
       "id": "COICA-L05-T002",
       "lot": "L05",
       "title": "Fédération MCP et contrats — Documenter les données, interfaces et contraintes",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "REVIEW",
       "dependencies": [
         "COICA-L05-T001"
       ],
@@ -1475,14 +1480,19 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "review_evidence": [
+        "mcp/core/src/index.js",
+        "mcp/core/test/core.test.mjs",
+        "docs/MCP_CONTRACT.md"
+      ]
     },
     {
       "id": "COICA-L05-T003",
       "lot": "L05",
       "title": "Fédération MCP et contrats — Définir les schémas et les règles métier",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "REVIEW",
       "dependencies": [
         "COICA-L05-T002"
       ],
@@ -1503,14 +1513,19 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "review_evidence": [
+        "mcp/core/src/index.js",
+        "mcp/core/test/core.test.mjs",
+        "docs/MCP_CONTRACT.md"
+      ]
     },
     {
       "id": "COICA-L05-T004",
       "lot": "L05",
       "title": "Fédération MCP et contrats — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "REVIEW",
       "dependencies": [
         "COICA-L05-T003"
       ],
@@ -1531,14 +1546,19 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "review_evidence": [
+        "mcp/core/src/index.js",
+        "mcp/core/test/core.test.mjs",
+        "docs/MCP_CONTRACT.md"
+      ]
     },
     {
       "id": "COICA-L05-T005",
       "lot": "L05",
       "title": "Fédération MCP et contrats — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "REVIEW",
       "dependencies": [
         "COICA-L05-T004"
       ],
@@ -1559,14 +1579,19 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "review_evidence": [
+        "mcp/core/src/index.js",
+        "mcp/core/test/core.test.mjs",
+        "docs/MCP_CONTRACT.md"
+      ]
     },
     {
       "id": "COICA-L05-T006",
       "lot": "L05",
       "title": "Fédération MCP et contrats — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "REVIEW",
       "dependencies": [
         "COICA-L05-T005"
       ],
@@ -1587,14 +1612,19 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "review_evidence": [
+        "mcp/core/src/index.js",
+        "mcp/core/test/core.test.mjs",
+        "docs/MCP_CONTRACT.md"
+      ]
     },
     {
       "id": "COICA-L05-T007",
       "lot": "L05",
       "title": "Fédération MCP et contrats — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "REVIEW",
       "dependencies": [
         "COICA-L05-T006"
       ],
@@ -1615,14 +1645,19 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "review_evidence": [
+        "mcp/core/src/index.js",
+        "mcp/core/test/core.test.mjs",
+        "docs/MCP_CONTRACT.md"
+      ]
     },
     {
       "id": "COICA-L05-T008",
       "lot": "L05",
       "title": "Fédération MCP et contrats — Vérifier les critères de sortie et rédiger le handoff",
       "type": "VALIDATION",
-      "status": "BLOCKED",
+      "status": "REVIEW",
       "dependencies": [
         "COICA-L05-T007"
       ],
@@ -1643,7 +1678,12 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "review_evidence": [
+        "mcp/core/src/index.js",
+        "mcp/core/test/core.test.mjs",
+        "docs/MCP_CONTRACT.md"
+      ]
     },
     {
       "id": "COICA-L06-T001",

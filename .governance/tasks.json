@@ -8,7 +8,7 @@
       "lot": "L00",
       "title": "Bootstrap et gouvernance agents — Formaliser le périmètre, les entrées et le contrat de sortie",
       "type": "DESIGN",
-      "status": "READY",
+      "status": "DONE",
       "dependencies": [],
       "blocked_by_external_access": false,
       "scope": {
@@ -27,14 +27,23 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L00/README.md",
+        "work-packages/L00/TASK_CONTRACTS.md",
+        "scripts/validate-governance.mjs",
+        ".github/workflows/governance.yml",
+        "CONTRIBUTING.md",
+        "docs/DEFINITION_OF_DONE.md",
+        "docs/BRANCH_AND_PR_POLICY.md"
+      ]
     },
     {
       "id": "COICA-L00-T002",
       "lot": "L00",
       "title": "Bootstrap et gouvernance agents — Documenter les données, interfaces et contraintes",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L00-T001"
       ],
@@ -55,14 +64,23 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L00/README.md",
+        "work-packages/L00/TASK_CONTRACTS.md",
+        "scripts/validate-governance.mjs",
+        ".github/workflows/governance.yml",
+        "CONTRIBUTING.md",
+        "docs/DEFINITION_OF_DONE.md",
+        "docs/BRANCH_AND_PR_POLICY.md"
+      ]
     },
     {
       "id": "COICA-L00-T003",
       "lot": "L00",
       "title": "Bootstrap et gouvernance agents — Définir les schémas et les règles métier",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L00-T002"
       ],
@@ -83,14 +101,23 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L00/README.md",
+        "work-packages/L00/TASK_CONTRACTS.md",
+        "scripts/validate-governance.mjs",
+        ".github/workflows/governance.yml",
+        "CONTRIBUTING.md",
+        "docs/DEFINITION_OF_DONE.md",
+        "docs/BRANCH_AND_PR_POLICY.md"
+      ]
     },
     {
       "id": "COICA-L00-T004",
       "lot": "L00",
       "title": "Bootstrap et gouvernance agents — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L00-T003"
       ],
@@ -111,14 +138,23 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L00/README.md",
+        "work-packages/L00/TASK_CONTRACTS.md",
+        "scripts/validate-governance.mjs",
+        ".github/workflows/governance.yml",
+        "CONTRIBUTING.md",
+        "docs/DEFINITION_OF_DONE.md",
+        "docs/BRANCH_AND_PR_POLICY.md"
+      ]
     },
     {
       "id": "COICA-L00-T005",
       "lot": "L00",
       "title": "Bootstrap et gouvernance agents — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L00-T004"
       ],
@@ -139,14 +175,23 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L00/README.md",
+        "work-packages/L00/TASK_CONTRACTS.md",
+        "scripts/validate-governance.mjs",
+        ".github/workflows/governance.yml",
+        "CONTRIBUTING.md",
+        "docs/DEFINITION_OF_DONE.md",
+        "docs/BRANCH_AND_PR_POLICY.md"
+      ]
     },
     {
       "id": "COICA-L00-T006",
       "lot": "L00",
       "title": "Bootstrap et gouvernance agents — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L00-T005"
       ],
@@ -167,14 +212,23 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L00/README.md",
+        "work-packages/L00/TASK_CONTRACTS.md",
+        "scripts/validate-governance.mjs",
+        ".github/workflows/governance.yml",
+        "CONTRIBUTING.md",
+        "docs/DEFINITION_OF_DONE.md",
+        "docs/BRANCH_AND_PR_POLICY.md"
+      ]
     },
     {
       "id": "COICA-L00-T007",
       "lot": "L00",
       "title": "Bootstrap et gouvernance agents — Exécuter la tranche 4 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L00-T006"
       ],
@@ -195,14 +249,23 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L00/README.md",
+        "work-packages/L00/TASK_CONTRACTS.md",
+        "scripts/validate-governance.mjs",
+        ".github/workflows/governance.yml",
+        "CONTRIBUTING.md",
+        "docs/DEFINITION_OF_DONE.md",
+        "docs/BRANCH_AND_PR_POLICY.md"
+      ]
     },
     {
       "id": "COICA-L00-T008",
       "lot": "L00",
       "title": "Bootstrap et gouvernance agents — Vérifier les critères de sortie et rédiger le handoff",
       "type": "VALIDATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L00-T007"
       ],
@@ -223,14 +286,23 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "work-packages/L00/README.md",
+        "work-packages/L00/TASK_CONTRACTS.md",
+        "scripts/validate-governance.mjs",
+        ".github/workflows/governance.yml",
+        "CONTRIBUTING.md",
+        "docs/DEFINITION_OF_DONE.md",
+        "docs/BRANCH_AND_PR_POLICY.md"
+      ]
     },
     {
       "id": "COICA-L01-T001",
       "lot": "L01",
       "title": "Architecture et décisions ADR — Formaliser le périmètre, les entrées et le contrat de sortie",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "READY",
       "dependencies": [
         "COICA-L00-T008"
       ],
@@ -426,7 +498,7 @@
       "lot": "L02",
       "title": "Registre et qualification des sources — Formaliser le périmètre, les entrées et le contrat de sortie",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "READY",
       "dependencies": [
         "COICA-L00-T008"
       ],

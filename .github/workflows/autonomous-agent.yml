@@ -1,0 +1,35 @@
+name: COICA Autonomous Agent
+on:
+  schedule:
+    - cron: '41 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+concurrency:
+  group: coica-autonomous-writer
+  cancel-in-progress: false
+jobs:
+  implement:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    if: github.ref == 'refs/heads/Server'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Baseline tests
+        run: npm test
+      - name: Select governed task
+        run: node scripts/agent-select.mjs > selection.json
+      - name: Implement one governed task
+        env:
+          OPENAI_API_KEY: ${{ secrets.COICA_AGENT_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+          MODEL: ${{ vars.COICA_AGENT_MODEL }}
+        run: python3 scripts/agent-runner.py

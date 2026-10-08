@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "verified_authorization": false,
+  "sources": [
+    {
+      "id": "CI-SIGFU",
+      "name": "SIGFU",
+      "status": "PUBLIC_WEB",
+      "scope": "Urban lotissements, îlots, lots, décisions",
+      "limitations": "Access methods, bulk/API, polygons, reuse rights to verify",
+      "api_verified": false,
+      "bulk_reuse_verified": false,
+      "source_url": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "CI-SIFOR",
+      "name": "SIFOR-CI / AFOR",
+      "status": "PARTNERSHIP_REQUIRED",
+      "scope": "Rural land systems and certificates",
+      "limitations": "Institutional API/data sharing permissions required",
+      "api_verified": false,
+      "bulk_reuse_verified": false,
+      "source_url": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "CI-AFOR-PUBLICATIONS",
+      "name": "AFOR publications",
+      "status": "PUBLIC_WEB",
+      "scope": "Published rural certificates metadata",
+      "limitations": "Automation rights, georeferencing and geometry to verify",
+      "api_verified": false,
+      "bulk_reuse_verified": false,
+      "source_url": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "CI-ADMIN",
+      "name": "Administrative boundaries",
+      "status": "OPEN_CANDIDATE",
+      "scope": "Regions, departments, subprefectures",
+      "limitations": "Validate authoritative boundaries/version/license",
+      "api_verified": false,
+      "bulk_reuse_verified": false,
+      "source_url": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "CI-OSM",
+      "name": "OpenStreetMap / Geofabrik",
+      "status": "OPEN_CANDIDATE",
+      "scope": "Roads, buildings, physical baseline",
+      "limitations": "ODbL compliance and attribution",
+      "api_verified": false,
+      "bulk_reuse_verified": false,
+      "source_url": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "CI-COPERNICUS",
+      "name": "Copernicus / Sentinel",
+      "status": "OPEN_CANDIDATE",
+      "scope": "Satellite and land cover",
+      "limitations": "Endpoint, licence, resolution and update cadence",
+      "api_verified": false,
+      "bulk_reuse_verified": false,
+      "source_url": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "CI-ENV",
+      "name": "Protected areas / forests",
+      "status": "DISCOVERY",
+      "scope": "Protected areas and legal restrictions",
+      "limitations": "Verify official OIPR/SODEFOR datasets",
+      "api_verified": false,
+      "bulk_reuse_verified": false,
+      "source_url": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "CI-CADASTRE",
+      "name": "Cadastre",
+      "status": "PARTNERSHIP_REQUIRED",
+      "scope": "Cadastral geometry and titles",
+      "limitations": "No exhaustive public API verified",
+      "api_verified": false,
+      "bulk_reuse_verified": false,
+      "source_url": null,
+      "last_verified_at": null
+    },
+    {
+      "id": "CI-STATE-DOMAIN",
+      "name": "State domains",
+      "status": "PARTNERSHIP_REQUIRED",
+      "scope": "Public/private state property",
+      "limitations": "No exhaustive public API verified",
+      "api_verified": false,
+      "bulk_reuse_verified": false,
+      "source_url": null,
+      "last_verified_at": null
+    }
+  ]
+}

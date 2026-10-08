@@ -1,0 +1,2 @@
+# Engineering Loop — observation autonome
+Le workflow `engineering-loop.yml` exécute toutes les 6 heures : tests → calcul du travail READY → artifact → issue de dispatch mise à jour. Il ne crée pas de claims, n'exécute pas de code généré, ne fusionne pas de PR et n'invente pas de sessions agent. La boucle de production nécessite un runner/agent externe explicitement installé et autorisé, avec coordination transactionnelle et gates CI. L'issue sert de point de reprise durable pour les agents.

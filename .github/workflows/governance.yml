@@ -13,4 +13,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npm run validate:governance
+      - run: npm run validate:governance\n      - run: node scripts/validate-sources.mjs\n      - run: node scripts/compute-ready.mjs

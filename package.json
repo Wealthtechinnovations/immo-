@@ -1,0 +1,11 @@
+{
+  "name": "coica-governance",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "validate:governance": "node scripts/validate-governance.mjs",
+    "test": "npm run validate:governance"
+  },
+  "engines": {"node": ">=20"}
+}

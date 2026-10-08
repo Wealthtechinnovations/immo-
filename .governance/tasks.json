@@ -1172,7 +1172,7 @@
       "lot": "L04",
       "title": "PostGIS et infrastructure de données — Formaliser le périmètre, les entrées et le contrat de sortie",
       "type": "DESIGN",
-      "status": "READY",
+      "status": "DONE",
       "dependencies": [
         "COICA-L01-T007",
         "COICA-L03-T008"
@@ -1194,14 +1194,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "database/migrations/001_extensions.sql",
+        "database/migrations/002_core.sql",
+        "database/migrations/003_observations.sql",
+        "database/migrations/004_events.sql",
+        "scripts/validate-sql.mjs",
+        "docs/DATABASE_INVARIANTS.md"
+      ]
     },
     {
       "id": "COICA-L04-T002",
       "lot": "L04",
       "title": "PostGIS et infrastructure de données — Documenter les données, interfaces et contraintes",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L04-T001"
       ],
@@ -1222,14 +1230,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "database/migrations/001_extensions.sql",
+        "database/migrations/002_core.sql",
+        "database/migrations/003_observations.sql",
+        "database/migrations/004_events.sql",
+        "scripts/validate-sql.mjs",
+        "docs/DATABASE_INVARIANTS.md"
+      ]
     },
     {
       "id": "COICA-L04-T003",
       "lot": "L04",
       "title": "PostGIS et infrastructure de données — Définir les schémas et les règles métier",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L04-T002"
       ],
@@ -1250,14 +1266,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "database/migrations/001_extensions.sql",
+        "database/migrations/002_core.sql",
+        "database/migrations/003_observations.sql",
+        "database/migrations/004_events.sql",
+        "scripts/validate-sql.mjs",
+        "docs/DATABASE_INVARIANTS.md"
+      ]
     },
     {
       "id": "COICA-L04-T004",
       "lot": "L04",
       "title": "PostGIS et infrastructure de données — Exécuter la tranche 1 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L04-T003"
       ],
@@ -1278,14 +1302,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "database/migrations/001_extensions.sql",
+        "database/migrations/002_core.sql",
+        "database/migrations/003_observations.sql",
+        "database/migrations/004_events.sql",
+        "scripts/validate-sql.mjs",
+        "docs/DATABASE_INVARIANTS.md"
+      ]
     },
     {
       "id": "COICA-L04-T005",
       "lot": "L04",
       "title": "PostGIS et infrastructure de données — Exécuter la tranche 2 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L04-T004"
       ],
@@ -1306,14 +1338,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "database/migrations/001_extensions.sql",
+        "database/migrations/002_core.sql",
+        "database/migrations/003_observations.sql",
+        "database/migrations/004_events.sql",
+        "scripts/validate-sql.mjs",
+        "docs/DATABASE_INVARIANTS.md"
+      ]
     },
     {
       "id": "COICA-L04-T006",
       "lot": "L04",
       "title": "PostGIS et infrastructure de données — Exécuter la tranche 3 du lot selon le contrat et les critères de validation",
       "type": "IMPLEMENTATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L04-T005"
       ],
@@ -1334,14 +1374,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "database/migrations/001_extensions.sql",
+        "database/migrations/002_core.sql",
+        "database/migrations/003_observations.sql",
+        "database/migrations/004_events.sql",
+        "scripts/validate-sql.mjs",
+        "docs/DATABASE_INVARIANTS.md"
+      ]
     },
     {
       "id": "COICA-L04-T007",
       "lot": "L04",
       "title": "PostGIS et infrastructure de données — Vérifier les critères de sortie et rédiger le handoff",
       "type": "VALIDATION",
-      "status": "BLOCKED",
+      "status": "DONE",
       "dependencies": [
         "COICA-L04-T006"
       ],
@@ -1362,14 +1410,22 @@
         "non-regression documented",
         "checkpoint and handoff updated"
       ],
-      "evidence_required": true
+      "evidence_required": true,
+      "completed_evidence": [
+        "database/migrations/001_extensions.sql",
+        "database/migrations/002_core.sql",
+        "database/migrations/003_observations.sql",
+        "database/migrations/004_events.sql",
+        "scripts/validate-sql.mjs",
+        "docs/DATABASE_INVARIANTS.md"
+      ]
     },
     {
       "id": "COICA-L05-T001",
       "lot": "L05",
       "title": "Fédération MCP et contrats — Formaliser le périmètre, les entrées et le contrat de sortie",
       "type": "DESIGN",
-      "status": "BLOCKED",
+      "status": "READY",
       "dependencies": [
         "COICA-L03-T008",
         "COICA-L04-T007"

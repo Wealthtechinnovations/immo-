@@ -3,9 +3,9 @@
   "version": "1.0.0-proposed",
   "repository": "Wealthtechinnovations/immo-",
   "base_branch": "Server",
-  "status": "L02_REVIEW",
+  "status": "L03_REVIEW",
   "active_task": null,
-  "next_candidate": "COICA-L03-T001",
+  "next_candidate": "COICA-L04-T001",
   "tasks_total": 140,
   "lots_total": 18,
   "committed_application_code": false,
@@ -14,9 +14,10 @@
   "completed_lots": [
     "L00",
     "L01",
-    "L02"
+    "L02",
+    "L03"
   ],
   "ready_candidates": [
-    "COICA-L03-T001"
+    "COICA-L04-T001"
   ]
 }
